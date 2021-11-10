@@ -1,0 +1,26 @@
+header {
+    width: 100%;
+    height: 100vh;
+    background-color: #160438;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.superiorMenu {
+    display: flex;
+    list-style: none;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.superiorMenu li a {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(187, 186, 186);
+    margin: 15px;
+}
+
+.superiorMenu li a:hover {
+    color: #fff;
+    border-bottom: #fff 1px solid;
+}
