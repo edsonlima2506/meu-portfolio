@@ -64,12 +64,6 @@ header {
     height: 80px;
 }
 
-.devFrontEnd {
-    color: #fff;
-    font-family: 'Poppins';
-    font-size: 25px;
-}
-
 .apresentation {
     display: flex;
     justify-content: space-around;
