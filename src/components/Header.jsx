@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.css';
 import pessoa from '../images/pessoa.png';
+import monitor from '../images/monitor.png';
 
 class Header extends React.Component {
     render() {
@@ -17,11 +18,11 @@ class Header extends React.Component {
                 </nav>
                 <div className="apresentation">
                     <span>
+                        <img src={ monitor } alt=""  className="monitor"/>
                         <h2 className="helloMensage">Olá, meu nome é</h2>
                         <h1 className="myName">Edson Lima!</h1>
-                        <h3 className="devFrontEnd">Dev Front-End</h3>
                     </span>
-                    <img src={ pessoa } alt="Imagem de um computador" className="devices"/>
+                    <img src={ pessoa } alt="Foto de Edson Lima"/>
                 </div>
             </header>
         )

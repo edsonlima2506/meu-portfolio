@@ -46,11 +46,16 @@ header {
     color: #BA1CFF;
 }
 
+.monitor {
+    width: 80px;
+}
+
 .helloMensage {
     color: #fff;
     font-family: 'Poppins';
     font-size: 30px;
     height: 40px;
+    margin-top: 20px;
 }
 
 .myName {
@@ -69,6 +74,6 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 90%;
+    width: 95%;
     height: 100vh;
 }
