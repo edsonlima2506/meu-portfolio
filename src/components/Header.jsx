@@ -13,6 +13,7 @@ class Header extends React.Component {
                         <li><a href="#contact">Contato</a></li>
                     </ul>
                 </nav>
+                <h1 className="myName">Olá, meu nome é Edson!</h1>
             </header>
         )
     }
