@@ -2,7 +2,7 @@
 
 header {
     width: 100%;
-    height: 100vh;
+    height: 106vh;
     background-color: #26262B;
     display: flex;
     flex-direction: column;
@@ -11,6 +11,7 @@ header {
 
 .superiorMenu {
     display: flex;
+    align-items: center;
     list-style: none;
     margin-top: 25px;
     margin-right: 25px;
@@ -26,6 +27,23 @@ header {
 .superiorMenu li a:hover {
     color: #fff;
     border-bottom: #fff 1px solid;
+}
+
+.buttonContact {
+    border: none;
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+    background-color: #BA1CFF;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.buttonContact:hover {
+    background: none;
+    border: 2px solid #BA1CFF;
+    color: #BA1CFF;
 }
 
 .helloMensage {
@@ -49,9 +67,8 @@ header {
 
 .apresentation {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
     width: 90%;
     height: 100vh;
 }

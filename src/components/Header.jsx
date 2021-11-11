@@ -1,5 +1,6 @@
-import React from 'react'
-import './header.css'
+import React from 'react';
+import './header.css';
+import pessoa from '../images/pessoa.png';
 
 class Header extends React.Component {
     render() {
@@ -11,12 +12,16 @@ class Header extends React.Component {
                         <li><a href="#academicEducation">Formação</a></li>
                         <li><a href="#projects">Projetos</a></li>
                         <li><a href="#contact">Contato</a></li>
+                        <li><button className="buttonContact">Contactar</button></li>
                     </ul>
                 </nav>
                 <div className="apresentation">
-                    <h2 className="helloMensage">Olá, meu nome é</h2>
-                    <h1 className="myName">Edson Lima!</h1>
-                    <h3 className="devFrontEnd">Dev Front-End</h3>
+                    <span>
+                        <h2 className="helloMensage">Olá, meu nome é</h2>
+                        <h1 className="myName">Edson Lima!</h1>
+                        <h3 className="devFrontEnd">Dev Front-End</h3>
+                    </span>
+                    <img src={ pessoa } alt="Imagem de um computador" className="devices"/>
                 </div>
             </header>
         )
