@@ -1,5 +1,45 @@
 .about {
     width: 100%;
     height: 100vh;
-    background-color: #29322C;
+    background-color: #2C2C31;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume {
+    width: 90%;
+    height: 250px;
+    background-color: #26262B;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.resumeContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.resumeContent h1 {
+    color: #BA1CFF;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.resumeContent h2 {
+    color: floralwhite;
+    font-family: 'Poppins', sans-serif;
+}
+
+.resumeCenterContent {
+    border-left: solid 22 #BA1CFF;
+}
+
+hr {
+    color: #2C2C31;
 }
