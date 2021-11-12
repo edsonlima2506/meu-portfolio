@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto&family=Ubuntu:wght@300&display=swap');
+
 .about {
     width: 100%;
     height: 150vh;
@@ -51,8 +53,22 @@ hr {
 }
 
 .myBio {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 50px;
+}
+
+.greetings {
+    color: #BA1CFF;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bioApresentation {
+    color: #fff;
+    width: 350px;
+    margin-top: 20px;
 }
