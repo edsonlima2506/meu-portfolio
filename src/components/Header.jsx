@@ -12,8 +12,8 @@ class Header extends React.Component {
                     <img src={ edsonLima } alt="Nome Edson Lima" />
                     <ul className="superiorMenu">
                         <li><a href="#about">Sobre</a></li>
-                        <li><a href="#academicEducation">Formação</a></li>
                         <li><a href="#projects">Projetos</a></li>
+                        <li><a href="#academicEducation">Formação</a></li>
                         <li><a href="#contact">Contato</a></li>
                         <li><button className="buttonContact">Contactar</button></li>
                     </ul>
