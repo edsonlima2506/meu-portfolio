@@ -27,11 +27,14 @@ class About extends React.Component {
                     <article>
                         <h3 className="greetings">Prazer, sou o Edson! <br /> Dev Front-End </h3>
                         <p className="bioApresentation">
-                            Sou um programdor que busca sempre a excêlencia na resolução de problemas, <br /> 
+                            Sou um programador que busca sempre a excêlencia na resolução de problemas, <br /> 
                             entendendo sempre que a tecnologia é um meio para isso, e não um fim! <br />
-                            Carrego comigo uma comunidade composta por mais de 2mil desenvolvedores <br />
+                        </p>
+                        <p className="bioApresentation">
+                            Carrego comigo uma comunidade composta por mais de 2mil desenvolvedores,
                             e comando uma startup que já impactou mais de 10mil pessoas!
                         </p>
+                        <button className="buttonContact buttonContactarBio">Contactar</button>
                     </article>
                 </section>
             </div>
