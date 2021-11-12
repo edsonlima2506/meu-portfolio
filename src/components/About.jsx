@@ -1,5 +1,6 @@
 import React from 'react';
 import '../components/about.css';
+import fotoSobre from '../images/fotoSobre.png';
 
 class About extends React.Component {
     render() {
@@ -20,6 +21,10 @@ class About extends React.Component {
                         <h1>CEO</h1>
                         <h2>Aos 18 anos</h2>
                     </div>
+                </section>
+                <section className="myBio">
+                    <img src={ fotoSobre } alt="foto de Edson Lima"/>
+                    <p>Prazer, sou o Edson!</p>
                 </section>
             </div>
         )
