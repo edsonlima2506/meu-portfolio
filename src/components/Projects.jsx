@@ -21,6 +21,7 @@ class Projects extends React.Component {
     render() {
         return (
             <div className="projects">
+                <h1>Habilidades</h1>
                 <div className="skillsDivision">
                     { this.renderSkills() }
                 </div>
